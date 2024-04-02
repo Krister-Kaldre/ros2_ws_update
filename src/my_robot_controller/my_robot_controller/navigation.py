@@ -56,13 +56,15 @@ class TurtleNavigationNode(Node):
       
       
        # Initialize goal poses as dictionaries {x, y, w}
-       self.x_home = -2.0
-       self.y_home = -0.5
-      
-       self.goal_poses.append({'x': 1.5, 'y': -1.0, 'yaw': -30})
-       self.goal_poses.append({'x': 2.5, 'y': 2.0, 'yaw': 60})
-       self.goal_poses.append({'x': 2.50, 'y': -1.0, 'yaw': 40})
-       self.goal_poses.append({'x': 1.50, 'y': 2.0, 'yaw': 0})
+       self.x_home = 0.0
+       self.y_home = 0.0
+
+       self.goal_poses.append({'x': -0.9, 'y': -1.7, 'yaw': -30}) 
+       self.goal_poses.append({'x': -2.4, 'y': 2.4, 'yaw': 20}) 
+       self.goal_poses.append({'x': -4.9, 'y': 0.5 ,'yaw': 40})
+       self.goal_poses.append({'x': -8.3, 'y': -1.4, 'yaw': 0})
+
+    
       
       
        time.sleep(5)
