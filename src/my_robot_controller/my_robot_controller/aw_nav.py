@@ -49,9 +49,9 @@ class CarNavigationNode(Node):
 
 
        self.goal_poses.append({'x': 3707.65, 'y':73762.74,'xx': 0.0,'yy':0.0, 'zz':-0.95,'w' :0.31 }) 
-       self.goal_poses.append({'x': 3689.20, 'y':73750.97,'xx': 0.0,'yy':0.0, 'zz':-0.73,'w' :0.67 })
-       self.goal_poses.append({'x': 3738.13, 'y':73682.34,'xx': 0.0,'yy':0.0, 'zz':0.22,'w' :0.98 })
-       self.goal_poses.append({'x': 3774.5, 'y':73723.23,'xx': 0.0,'yy':0.0, 'zz':0.85,'w' :0.52 })
+       self.goal_poses.append({'x': 3692.06, 'y':73741.58,'xx': 0.0,'yy':0.0, 'zz':-0.51,'w' :0.86 })
+       self.goal_poses.append({'x': 3732.61, 'y':73725.33,'xx': 0.0,'yy':0.0, 'zz':-0.98,'w' :0.22 })
+       self.goal_poses.append({'x': 3741.03, 'y':73683.29,'xx': 0.0,'yy':0.0, 'zz':0.28,'w' :0.96 })
        
 
     
